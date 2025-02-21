@@ -49,12 +49,3 @@ def product(A, B):
         C.append(C21[i] + C22[i])
 
     return C
-
-
-A = [[1, 2], [3, 4]]
-B = [[5, 6], [7, 8]]
-C = product(A, B)
-
-
-for row in C:
-    print(row)
